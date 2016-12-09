@@ -7,7 +7,8 @@ Description....
 1. Clone this project or Download that ZIP file
 2. Import database in database/rms.sql
 3. Config database information in app/config/database.php
-4. Config Virtual host for apache like: 
+4. Add Vendor (compose install command)
+5. Config Virtual host for apache like: 
 ```
        <VirtualHost *:80>        
             ServerAdmin quangthieuagu@gmail.com
@@ -23,4 +24,4 @@ Description....
  	    </VirtualHost>
  
 ```
-5. Install Vendor (compose install command) 
+ 
