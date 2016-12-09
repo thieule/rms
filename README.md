@@ -1,22 +1,24 @@
-# SB Admin v2.0 rewritten in Laravel
+# RMS - Resources Management System
 
-This project is a part of the famous Free Admin Bootstrap Theme SB Admin v2.0 to Laravel Theme.
-
-Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.com/)..
+Description....
 
 ## Installation
 
 1. Clone this project or Download that ZIP file
-2. Make sure you have bower, gulp and npm installed globally
-3. On the command prompt run the following commands
-- cd `project-directory`
-- Set permission 777 for storage
-- `composer install`
-- `npm install`
-- `bower install`
-- `gulp watch`
-- `php artisan cache:clear`
+2. Import database in database/rms.sql
+3. Config database information in app/config/database.php
+4. Config Virtual host for apache like: 
 
-### Automation tools
-
-- [Gulp](http://gulpjs.com/)
+       <VirtualHost *:80>        
+            ServerAdmin quangthieuagu@gmail.com
+            DocumentRoot "D:/www/rms/public"
+            ServerName rms.local
+            <Directory "D:/www/rms/public">
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride all
+                Order Deny,Allow
+                Allow from all
+                Require all granted
+            </Directory>
+ 	    </VirtualHost>
+ 
