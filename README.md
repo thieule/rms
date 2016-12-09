@@ -8,7 +8,7 @@ Description....
 2. Import database in database/rms.sql
 3. Config database information in app/config/database.php
 4. Config Virtual host for apache like: 
-
+```
        <VirtualHost *:80>        
             ServerAdmin quangthieuagu@gmail.com
             DocumentRoot "D:/www/rms/public"
@@ -22,3 +22,4 @@ Description....
             </Directory>
  	    </VirtualHost>
  
+```
