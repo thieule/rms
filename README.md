@@ -23,3 +23,4 @@ Description....
  	    </VirtualHost>
  
 ```
+5. Install Vendor (compose install command) 
