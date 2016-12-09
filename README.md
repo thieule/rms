@@ -24,4 +24,16 @@ Description....
  	    </VirtualHost>
  
 ```
+
+## Server Requirements
+   Need to make sure your server meets the following requirements:
+
+    * PHP >= 5.6.4
+    * OpenSSL PHP Extension
+    * PDO PHP Extension
+    * Mbstring PHP Extension
+    * Tokenizer PHP Extension
+    * XML PHP Extension
+
+
  
